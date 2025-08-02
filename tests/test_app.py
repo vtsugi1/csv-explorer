@@ -7,7 +7,7 @@ import os
 # Add the parent directory to sys.path so we can import app
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from app import load_csv_data
+from app import load_csv_data, validate_csv_structure
 
 class TestCSVLoading:
     """Test CSV file loading functionality."""
@@ -76,6 +76,38 @@ class TestDataProcessing:
         assert df.isnull().sum().sum() == 1  # One null value
         assert df['A'].nunique() == 4  # 4 unique values (excluding NaN)
         assert df['B'].nunique() == 5  # 5 unique values
+
+class TestCSVValidation:
+    """Test CSV structure validation functionality."""
+    
+    def test_validate_csv_with_minimum_rows(self):
+        """Test that CSV validation requires minimum number of rows."""
+        df = pd.DataFrame({'A': [1], 'B': [2]})  # Only 1 row
+        
+        is_valid, message = validate_csv_structure(df, min_rows=2)
+        
+        assert not is_valid
+        assert "minimum" in message.lower()
+        assert "rows" in message.lower()
+    
+    def test_validate_csv_with_sufficient_rows(self):
+        """Test that CSV validation passes with sufficient rows."""
+        df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})  # 3 rows
+        
+        is_valid, message = validate_csv_structure(df, min_rows=2)
+        
+        assert is_valid
+        assert message == ""
+    
+    def test_validate_csv_with_required_columns(self):
+        """Test that CSV validation checks for required columns."""
+        df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+        
+        is_valid, message = validate_csv_structure(df, required_columns=['A', 'C'])
+        
+        assert not is_valid
+        assert "missing" in message.lower()
+        assert "C" in message
 
 if __name__ == "__main__":
     pytest.main([__file__])

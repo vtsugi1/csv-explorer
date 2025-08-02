@@ -12,6 +12,22 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+def validate_csv_structure(df, min_rows=1, required_columns=None):
+    """Validate CSV structure meets requirements."""
+    if required_columns is None:
+        required_columns = []
+    
+    # Check minimum rows
+    if len(df) < min_rows:
+        return False, f"CSV must have minimum {min_rows} rows, but has {len(df)}"
+    
+    # Check required columns
+    missing_columns = set(required_columns) - set(df.columns)
+    if missing_columns:
+        return False, f"Missing required columns: {', '.join(missing_columns)}"
+    
+    return True, ""
+
 def load_csv_data(uploaded_file):
     """Load and validate CSV data from uploaded file."""
     try:
