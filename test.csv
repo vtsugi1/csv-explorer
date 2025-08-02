@@ -1,0 +1,101 @@
+order_id,customer_name,dumpling_type,quantity,price_per_unit,total_amount,order_time,cooking_method,spice_level,sauce,customer_type
+1,Sarah Chen,Pork and Chive,12,1.25,15.00,11:23,Steamed,Medium,Soy Ginger,Regular
+2,Mike Johnson,Chicken and Mushroom,8,1.50,12.00,11:35,Pan-fried,Mild,Sweet and Sour,VIP
+3,Lisa Wang,Vegetable,15,1.00,15.00,11:42,Boiled,None,Sesame Oil,Regular
+4,David Kim,Beef and Onion,10,1.75,17.50,11:58,Steamed,Hot,Chili Oil,Regular
+5,Emma Rodriguez,Shrimp,6,2.00,12.00,12:05,Pan-fried,Medium,Black Vinegar,VIP
+6,James Liu,Pork and Cabbage,20,1.25,25.00,12:15,Steamed,Mild,Soy Ginger,Bulk
+7,Anna Petrov,Lamb and Cilantro,8,1.80,14.40,12:22,Pan-fried,Hot,Spicy Garlic,Regular
+8,Tom Wilson,Mixed Vegetables,12,1.10,13.20,12:38,Boiled,None,Ponzu,Regular
+9,Grace Zhang,Duck and Scallion,6,2.25,13.50,12:45,Steamed,Medium,Plum Sauce,VIP
+10,Robert Brown,Pork and Chive,18,1.25,22.50,12:52,Pan-fried,Mild,Soy Ginger,Bulk
+11,Maria Garcia,Fish and Ginger,10,1.90,19.00,13:08,Steamed,Medium,Lemon Soy,Regular
+12,Kevin Lee,Chicken Curry,8,1.60,12.80,13:15,Pan-fried,Hot,Curry Sauce,Regular
+13,Sophie Turner,Mushroom and Tofu,14,1.20,16.80,13:28,Boiled,None,Sesame Oil,Regular
+14,Alex Morgan,Beef and Broccoli,12,1.65,19.80,13:35,Steamed,Medium,Oyster Sauce,VIP
+15,Rachel Green,Pork and Shrimp,10,1.85,18.50,13:48,Pan-fried,Mild,Sweet Chili,Regular
+16,Daniel Park,Chicken and Corn,16,1.40,22.40,13:55,Steamed,None,Honey Mustard,Bulk
+17,Olivia Smith,Vegetable Medley,20,1.00,20.00,14:12,Boiled,None,Soy Sauce,Bulk
+18,Ryan O'Connor,Spicy Pork,8,1.55,12.40,14:18,Pan-fried,Very Hot,Chili Oil,Regular
+19,Jennifer Wu,Crab and Chive,6,2.50,15.00,14:25,Steamed,Mild,Ginger Scallion,VIP
+20,Matthew Davis,Turkey and Herbs,12,1.70,20.40,14:38,Pan-fried,Medium,Herb Butter,Regular
+21,Ashley Kim,Spinach and Ricotta,10,1.30,13.00,14:45,Boiled,None,Garlic Oil,Regular
+22,Christopher Wang,Beef and Mushroom,14,1.75,24.50,14:58,Steamed,Hot,Black Pepper,Regular
+23,Stephanie Liu,Chicken and Vegetable,18,1.45,26.10,15:05,Pan-fried,Mild,Teriyaki,Bulk
+24,Brandon Chen,Pork Soup,8,1.80,14.40,15:15,Boiled,Medium,Bone Broth,Regular
+25,Nicole Johnson,Shrimp and Pork,12,2.10,25.20,15:22,Steamed,Medium,Cocktail Sauce,VIP
+26,Justin Martinez,Lamb and Mint,6,2.00,12.00,15:35,Pan-fried,Mild,Mint Yogurt,Regular
+27,Samantha Lee,Vegetarian Delight,16,1.15,18.40,15:42,Boiled,None,Tahini,Regular
+28,Eric Thompson,BBQ Pork,10,1.65,16.50,15:58,Steamed,Medium,BBQ Sauce,Regular
+29,Amanda Zhang,Fish and Leek,8,1.95,15.60,16:05,Pan-fried,Mild,Lemon Herb,Regular
+30,Tyler Brown,Chicken Tikka,12,1.70,20.40,16:18,Steamed,Hot,Tikka Sauce,Regular
+31,Megan Wilson,Mushroom Truffle,6,2.30,13.80,16:25,Pan-fried,None,Truffle Oil,VIP
+32,Jason Rodriguez,Beef and Pepper,14,1.60,22.40,16:38,Steamed,Medium,Peppercorn,Regular
+33,Kimberly Garcia,Pork and Apple,10,1.50,15.00,16:45,Pan-fried,Mild,Apple Cider,Regular
+34,Andrew Kim,Seafood Mix,8,2.40,19.20,16:58,Boiled,Medium,Seafood Sauce,VIP
+35,Crystal Liu,Cabbage and Carrot,20,0.95,19.00,17:05,Steamed,None,Rice Vinegar,Bulk
+36,Jonathan Park,Chicken and Bacon,12,1.85,22.20,17:15,Pan-fried,Medium,Ranch,Regular
+37,Tiffany Chen,Tofu and Spinach,16,1.10,17.60,17:22,Boiled,None,Soy Sesame,Regular
+38,Marcus Johnson,Spicy Beef,8,1.90,15.20,17:38,Steamed,Very Hot,Ghost Pepper,Regular
+39,Vanessa Wong,Duck and Orange,6,2.35,14.10,17:45,Pan-fried,Mild,Orange Glaze,VIP
+40,Noah Davis,Chicken and Rice,18,1.35,24.30,17:58,Steamed,None,Chicken Gravy,Bulk
+41,Isabella Martinez,Vegetable Spring,14,1.05,14.70,18:05,Boiled,None,Spring Onion,Regular
+42,Ethan Wilson,Pork Belly,10,1.95,19.50,18:18,Pan-fried,Medium,Hoisin Sauce,Regular
+43,Sophia Lee,Salmon and Dill,8,2.20,17.60,18:25,Steamed,Mild,Dill Cream,VIP
+44,Mason Brown,Lamb and Rosemary,12,1.85,22.20,18:38,Pan-fried,Medium,Rosemary Jus,Regular
+45,Chloe Garcia,Mushroom and Cheese,16,1.40,22.40,18:45,Boiled,None,Cheese Sauce,Regular
+46,Logan Thompson,Chicken Satay,10,1.75,17.50,18:58,Steamed,Hot,Peanut Sauce,Regular
+47,Ava Rodriguez,Pork and Pineapple,14,1.60,22.40,19:05,Pan-fried,Mild,Sweet and Sour,Regular
+48,Lucas Kim,Beef and Ginger,8,1.80,14.40,19:15,Steamed,Medium,Ginger Soy,Regular
+49,Zoe Chen,Vegetable Curry,12,1.25,15.00,19:22,Boiled,Hot,Curry Coconut,Regular
+50,Carter Liu,Turkey and Cranberry,6,1.90,11.40,19:38,Pan-fried,Mild,Cranberry Sauce,Regular
+51,Lily Wang,Shrimp Tempura,10,2.30,23.00,19:45,Steamed,None,Tempura Sauce,VIP
+52,Hunter Johnson,Pork and Fennel,18,1.45,26.10,19:58,Pan-fried,Medium,Fennel Cream,Bulk
+53,Natalie Martinez,Chicken and Sage,8,1.65,13.20,20:05,Steamed,Mild,Sage Butter,Regular
+54,Ian Davis,Beef Bulgogi,12,1.95,23.40,20:18,Pan-fried,Medium,Bulgogi Sauce,Regular
+55,Paige Wilson,Mushroom and Barley,16,1.15,18.40,20:25,Boiled,None,Mushroom Broth,Regular
+56,Caleb Brown,Lamb and Apricot,6,2.10,12.60,20:38,Steamed,Mild,Apricot Glaze,VIP
+57,Brooke Garcia,Vegetable Ramen,14,1.30,18.20,20:45,Boiled,Medium,Miso Broth,Regular
+58,Austin Lee,Chicken Teriyaki,10,1.70,17.00,20:58,Pan-fried,Mild,Teriyaki Glaze,Regular
+59,Haley Thompson,Pork and Plum,8,1.75,14.00,21:05,Steamed,Medium,Plum Sauce,Regular
+60,Gavin Kim,Fish and Chips,12,1.85,22.20,21:15,Pan-fried,None,Malt Vinegar,Regular
+61,Destiny Rodriguez,Tofu Pad Thai,16,1.20,19.20,21:22,Boiled,Hot,Pad Thai Sauce,Regular
+62,Tristan Chen,Beef and Onion,18,1.65,29.70,21:38,Steamed,Medium,Onion Gravy,Bulk
+63,Sierra Liu,Chicken and Artichoke,6,1.90,11.40,21:45,Pan-fried,Mild,Artichoke Dip,VIP
+64,Jaden Martinez,Pork and Sweet Potato,14,1.55,21.70,21:58,Steamed,Medium,Maple Glaze,Regular
+65,Mackenzie Johnson,Vegetable Medley,20,1.00,20.00,22:05,Boiled,None,Herb Oil,Bulk
+66,Colton Davis,Lamb and Quinoa,8,2.00,16.00,22:18,Pan-fried,Medium,Mediterranean,Regular
+67,Kendall Wilson,Chicken and Avocado,12,1.80,21.60,22:25,Steamed,Mild,Avocado Cream,Regular
+68,Preston Brown,Beef Stroganoff,10,1.95,19.50,22:38,Pan-fried,Medium,Stroganoff Sauce,Regular
+69,Skylar Garcia,Mushroom Risotto,16,1.35,21.60,22:45,Boiled,None,Parmesan Cream,Regular
+70,Bryce Lee,Pork and Kimchi,8,1.70,13.60,22:58,Steamed,Hot,Kimchi Sauce,Regular
+71,Alexis Thompson,Chicken Marsala,14,1.75,24.50,23:05,Pan-fried,Medium,Marsala Wine,Regular
+72,Peyton Kim,Vegetable Samosa,18,1.10,19.80,23:15,Boiled,Hot,Chutney,Bulk
+73,Jordan Rodriguez,Beef and Mushroom,6,1.85,11.10,23:22,Steamed,Medium,Mushroom Sauce,Regular
+74,Riley Chen,Fish and Tomato,12,1.90,22.80,23:38,Pan-fried,Mild,Tomato Basil,Regular
+75,Cameron Liu,Pork and Pepper,10,1.60,16.00,23:45,Steamed,Hot,Pepper Sauce,Regular
+76,Taylor Martinez,Chicken and Lemon,8,1.65,13.20,23:58,Pan-fried,Mild,Lemon Pepper,Regular
+77,Morgan Johnson,Vegetable Stir-fry,16,1.15,18.40,00:05,Boiled,Medium,Stir-fry Sauce,Regular
+78,Avery Davis,Lamb and Mint,14,1.95,27.30,00:18,Steamed,Medium,Mint Sauce,Regular
+79,Quinn Wilson,Beef and Broccoli,12,1.70,20.40,00:25,Pan-fried,Mild,Oyster Sauce,Regular
+80,Casey Brown,Chicken and Cashew,6,1.85,11.10,00:38,Steamed,Medium,Cashew Cream,VIP
+81,Reese Garcia,Pork and Bamboo,18,1.50,27.00,00:45,Pan-fried,Hot,Asian BBQ,Bulk
+82,Blake Lee,Fish and Ginger,10,2.00,20.00,00:58,Steamed,Mild,Ginger Soy,Regular
+83,Sage Thompson,Vegetable Curry,8,1.25,10.00,01:05,Boiled,Hot,Green Curry,Regular
+84,River Kim,Chicken and Grape,14,1.75,24.50,01:18,Pan-fried,Mild,Grape Reduction,Regular
+85,Phoenix Rodriguez,Beef and Potato,12,1.65,19.80,01:25,Steamed,Medium,Gravy,Regular
+86,Rowan Chen,Lamb and Rosemary,16,1.90,30.40,01:38,Pan-fried,Medium,Herb Crust,Regular
+87,Sage Liu,Mushroom and Truffle,6,2.40,14.40,01:45,Steamed,None,Truffle Cream,VIP
+88,Ember Martinez,Chicken and Thyme,10,1.70,17.00,01:58,Pan-fried,Mild,Thyme Butter,Regular
+89,Ocean Johnson,Fish and Lemon,8,2.10,16.80,02:05,Steamed,Mild,Lemon Caper,Regular
+90,Storm Davis,Pork and Apple,18,1.55,27.90,02:18,Pan-fried,Medium,Apple Sage,Bulk
+91,Luna Wilson,Vegetable Medley,14,1.05,14.70,02:25,Boiled,None,Garden Herb,Regular
+92,Atlas Brown,Beef Wellington,6,2.60,15.60,02:38,Steamed,Mild,Mushroom Duxelles,VIP
+93,Nova Garcia,Chicken and Tarragon,12,1.80,21.60,02:45,Pan-fried,Medium,Tarragon Cream,Regular
+94,Orion Lee,Lamb and Lavender,8,2.20,17.60,02:58,Steamed,Mild,Lavender Honey,Regular
+95,Iris Thompson,Pork and Sage,16,1.60,25.60,03:05,Pan-fried,Medium,Sage Jus,Regular
+96,Echo Kim,Fish and Dill,10,1.95,19.50,03:18,Steamed,Mild,Dill Mustard,Regular
+97,Skye Rodriguez,Vegetable Rainbow,20,1.10,22.00,03:25,Boiled,None,Rainbow Sauce,Bulk
+98,Zara Chen,Chicken and Mango,14,1.75,24.50,03:38,Pan-fried,Mild,Mango Chutney,Regular
+99,Kai Liu,Beef and Shiitake,12,1.85,22.20,03:45,Steamed,Medium,Shiitake Glaze,Regular
+100,Vale Martinez,Pork and Cranberry,8,1.70,13.60,03:58,Pan-fried,Mild,Cranberry Reduction,Regular
