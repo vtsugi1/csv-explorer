@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A high-performance Streamlit web application for CSV data exploration using pygwalker for interactive analytics and visualization. The app allows users to upload CSV files and perform advanced data analysis through an intuitive web interface.
+A personal project built with Streamlit for interactive CSV data exploration. This application combines Streamlit's web framework with pygwalker's visualization capabilities to create an easy-to-use tool for data analysis. Built as both a useful utility and a way to practice modern Python development patterns including Test-Driven Development.
 
 ## Development Environment
 
@@ -88,6 +88,15 @@ Uses pytest with tdd-guard for continuous testing during development. Tests shou
 
 ## Performance Considerations
 
-- Handle large CSV files efficiently with pandas chunking if needed
-- Optimize pygwalker rendering for better user experience
+- Handle reasonably large CSV files efficiently with pandas
+- Optimize pygwalker rendering for smooth user experience
 - Implement proper error boundaries for file processing failures
+- Focus on practical file sizes that individuals typically work with
+
+## Project Goals
+
+This is a personal learning project that aims to:
+- Demonstrate modern Python development practices
+- Create a genuinely useful tool for data exploration
+- Practice Test-Driven Development methodology
+- Build something that others can learn from and contribute to
